@@ -1,0 +1,22 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 1/27/2014 8:09:48 AM
+#Cmp ( order = Reference )
+| BT1        CR2032      ; CR2032V     ;             ;             ;             
+| C1         1uF         ; SM1206      ;             ;             ;             
+| D1         LED         ; LED-5MM     ;             ;             ;             
+| R1         470k        ; SM1206      ;             ;             ;             
+| R2         1k          ; SM1206      ;             ;             ;             
+| U1         7555        ; so-8        ;             ;             ;             
+| VR1        VR          ; R3          ;             ;             ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| CR2032       BT1       ; CR2032V     ;             ;             ;             
+| 1uF          C1        ; SM1206      ;             ;             ;             
+| LED          D1        ; LED-5MM     ;             ;             ;             
+| 1k           R2        ; SM1206      ;             ;             ;             
+| 470k         R1        ; SM1206      ;             ;             ;             
+| 7555         U1        ; so-8        ;             ;             ;             
+| VR           VR1       ; R3          ;             ;             ;             
+#End Cmp
+
+#End List

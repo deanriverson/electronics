@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/29/2014 11:11:20 AM
+
+BeginCmp
+TimeStamp = /52E857D3;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E869BE;
+Reference = IC1;
+ValeurCmp = ATMEGA168-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E92DB2;
+Reference = J1;
+ValeurCmp = CONN16;
+IdModule  = CONN16;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E92D79;
+Reference = J2;
+ValeurCmp = CONN16;
+IdModule  = CONN16;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E857E2;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E857C4;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E85A7A;
+Reference = U1;
+ValeurCmp = LM741;
+IdModule  = MSOP_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9411F;
+Reference = U2;
+ValeurCmp = 7805;
+IdModule  = 7805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E93970;
+Reference = U3;
+ValeurCmp = LM2902N;
+IdModule  = TSSOP16;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E942F1;
+Reference = U4;
+ValeurCmp = LM741;
+IdModule  = MSOP_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E944EC;
+Reference = U5;
+ValeurCmp = TLC274;
+IdModule  = TSSOP14;
+EndCmp
+
+EndListe

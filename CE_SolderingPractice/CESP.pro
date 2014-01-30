@@ -1,4 +1,4 @@
-update=1/29/2014 9:58:54 AM
+update=1/29/2014 6:01:32 PM
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -52,10 +52,10 @@ LibName31=CESPcustom
 version=1
 LastNetListRead=CESP.net
 UseCmpFile=1
-PadDrill=1.016000000000
-PadDrillOvalY=1.016000000000
-PadSizeH=1.524000000000
-PadSizeV=1.524000000000
+PadDrill=3.048000000000
+PadDrillOvalY=3.048000000000
+PadSizeH=8.890000000000
+PadSizeV=8.890000000000
 PcbTextSizeV=1.000000000000
 PcbTextSizeH=1.000000000000
 PcbTextThickness=0.300000000000
@@ -81,3 +81,4 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=CESPcustom
+LibName13=GRP_NAME_BACK

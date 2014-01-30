@@ -3,9 +3,9 @@
   (general
     (links 35)
     (no_connects 0)
-    (area 157.404999 116.764999 213.562001 142.315001)
+    (area 155.381 115.901612 213.562001 144.632333)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 129)
     (zones 0)
     (modules 11)
@@ -837,6 +837,9 @@
     )
   )
 
+  (gr_text "Soldering Practice" (at 184.404 118.364) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_line (start 163.322 123.825) (end 157.734 123.825) (angle 90) (layer Edge.Cuts) (width 0.508))
   (gr_line (start 184.912 123.825) (end 187.198 123.825) (angle 90) (layer Edge.Cuts) (width 0.508))
   (gr_line (start 185.166 123.825) (end 166.37 123.825) (angle 90) (layer Edge.Cuts) (width 0.508))

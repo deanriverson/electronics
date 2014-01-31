@@ -8,7 +8,9 @@ is an attempt to do both while at the same time meeting the requirements of the 
 
 One interesting thing I learned is that you cannot submit an empty back silk screen layer to OSHpark.  I would assume
 that you could just remove that layer from your gerbers, but I didn't try.  I opted to just put some text on the back
-instead.  I should have put an image on!
+instead.  I should have put an image on the back instead!
+
+Update: The latest version of the board has the 1.21 Gigawatts logo from our CE group.
 
 Screen Shots
 ============

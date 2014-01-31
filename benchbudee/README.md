@@ -7,4 +7,4 @@ For now, there is just a custom module library containing the footprints of the 
 
 Screen Shots
 ============
-!(Footprints)[images/arduinos.PNG]
+![Footprints](images/arduinos.PNG)

@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:benchbudee-custom
 LIBS:benchbudee-cache
 EELAYER 27 0
 EELAYER END
@@ -77,10 +78,11 @@ S 7150 5350 1050 700
 U 52F13E9E
 F0 "Relay" 50
 F1 "Relay.sch" 50
-F2 "RLY+" I R 8200 5500 60 
-F3 "RLY-" O R 8200 5650 60 
-F4 "DIN+" I L 7150 5500 60 
-F5 "DIN-" O L 7150 5650 60 
+F2 "DIN+" I L 7150 5500 60 
+F3 "DIN-" O L 7150 5650 60 
+F4 "NC" B R 8200 5500 60 
+F5 "NO" B R 8200 5650 60 
+F6 "COM" B R 8200 5800 60 
 $EndSheet
 $Sheet
 S 4050 2250 1450 850 

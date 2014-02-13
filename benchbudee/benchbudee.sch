@@ -125,7 +125,7 @@ $EndSheet
 $Sheet
 S 3600 950  1300 850 
 U 52FC1BE1
-F0 "PowerAdjustmentMonitor" 50
-F1 "PowerAdjustmentMonitor.sch" 50
+F0 "PowerMonitor" 50
+F1 "PowerMonitor.sch" 50
 $EndSheet
 $EndSCHEMATC

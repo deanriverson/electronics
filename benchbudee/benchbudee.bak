@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "13 feb 2014"
+Date "14 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -125,7 +125,7 @@ $EndSheet
 $Sheet
 S 3600 950  1300 850 
 U 52FC1BE1
-F0 "PowerAdjustmentMonitor" 50
-F1 "PowerAdjustmentMonitor.sch" 50
+F0 "PowerMonitor" 50
+F1 "PowerMonitor.sch" 50
 $EndSheet
 $EndSCHEMATC

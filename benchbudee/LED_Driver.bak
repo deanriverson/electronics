@@ -31,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:benchbudee-custom
 LIBS:benchbudee-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title ""
 Date "14 feb 2014"
 Rev ""
@@ -48,9 +48,9 @@ $EndDescr
 Text HLabel 3400 3300 0    60   Input ~ 0
 LED_EN_PWM
 Text HLabel 9100 2200 2    60   Output ~ 0
-STRING+
-Text HLabel 9150 3350 2    60   Input ~ 0
-STRING-
+LED_STRING+
+Text HLabel 9150 3350 2    60   Output ~ 0
+LED_STRING-
 $Comp
 L AP5726 U?
 U 1 1 52FF56C0

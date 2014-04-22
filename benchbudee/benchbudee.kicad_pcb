@@ -1,11 +1,11 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
+(kicad_pcb (version 3) (host pcbnew "(2014-03-08 BZR 4739)-product")
 
   (general
     (links 0)
     (no_connects 0)
-    (area 157.150999 89.341 265.759001 204.029)
+    (area 157.150999 88.991 265.759001 204.229)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 2)
@@ -15,6 +15,8 @@
   (page A3)
   (layers
     (15 F.Cu signal)
+    (2 PWR power)
+    (1 GND power)
     (0 B.Cu signal)
     (16 B.Adhes user)
     (17 F.Adhes user)
@@ -24,29 +26,27 @@
     (21 F.SilkS user)
     (22 B.Mask user)
     (23 F.Mask user)
-    (24 Dwgs.User user)
-    (25 Cmts.User user)
-    (26 Eco1.User user)
-    (27 Eco2.User user)
     (28 Edge.Cuts user)
   )
 
   (setup
     (last_trace_width 0.254)
+    (user_trace_width 0.1524)
     (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.254)
+    (trace_min 0.1524)
     (segment_width 0.2)
     (edge_width 0.1)
     (via_size 0.889)
     (via_drill 0.635)
-    (via_min_size 0.889)
-    (via_min_drill 0.508)
+    (via_min_size 0.508)
+    (via_min_drill 0.3302)
+    (user_via 0.508 0.3302)
     (uvia_size 0.508)
     (uvia_drill 0.127)
     (uvias_allowed no)
-    (uvia_min_size 0.508)
+    (uvia_min_size 0.381)
     (uvia_min_drill 0.127)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
@@ -99,7 +99,7 @@
   )
 
   (module Arduino_UNO (layer F.Cu) (tedit 52EAF158) (tstamp 52EAF502)
-    (at 195.58 119.38)
+    (at -186.944 33.274)
     (fp_text reference "Arduino UNO" (at 0 -29.21) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -139,7 +139,7 @@
   )
 
   (module Arduino_MEGA (layer F.Cu) (tedit 52EAF16D) (tstamp 52EAF5B6)
-    (at 195.58 176.53)
+    (at -186.944 90.424)
     (fp_text reference "Arduino MEGA" (at 0 -29.21) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -181,5 +181,10 @@
     (fp_line (start -31.75 25.4) (end 31.75 25.4) (layer Eco1.User) (width 0.15))
     (fp_line (start -31.75 -25.4) (end -31.75 25.4) (layer Eco1.User) (width 0.15))
   )
+
+  (gr_line (start 110.236 111.76) (end 110.236 175.26) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 275.336 111.76) (end 110.236 111.76) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 275.336 175.26) (end 275.336 111.76) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 110.236 175.26) (end 275.336 175.26) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )

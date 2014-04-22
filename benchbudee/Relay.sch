@@ -31,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:benchbudee-custom
 LIBS:benchbudee-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 3 9
 Title ""
 Date "14 feb 2014"
 Rev ""
@@ -46,13 +46,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 8850 2800 2    60   BiDi ~ 0
-NC
+RELAY_NC
 Text HLabel 8850 3000 2    60   BiDi ~ 0
-NO
+RELAY_NO
 Text HLabel 2800 2900 0    60   Input ~ 0
-DIN+
+RELAY+
 Text HLabel 2800 3250 0    60   Output ~ 0
-DIN-
+RELAY-
 $Comp
 L PHTRANS U?
 U 1 1 52FBF340
@@ -111,7 +111,7 @@ F 3 "~" H 8150 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 8850 2400 2    60   BiDi ~ 0
-COM
+RELAY_COM
 Wire Wire Line
 	7550 2900 7750 2900
 Wire Wire Line

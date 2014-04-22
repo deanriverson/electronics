@@ -31,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:benchbudee-custom
 LIBS:benchbudee-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 2 9
 Title ""
 Date "14 feb 2014"
 Rev ""

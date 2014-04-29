@@ -396,4 +396,38 @@ Wire Wire Line
 Wire Wire Line
 	3800 2750 3800 2600
 Connection ~ 3800 2600
+Text HLabel 7600 3950 2    60   Output ~ 0
+~RESET
+$Comp
+L R R?
+U 1 1 535F6093
+P 7150 3950
+F 0 "R?" V 7230 3950 40  0000 C CNN
+F 1 "R" V 7157 3951 40  0000 C CNN
+F 2 "" V 7080 3950 30  0000 C CNN
+F 3 "" H 7150 3950 30  0000 C CNN
+	1    7150 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 3950 6900 3950
+Wire Wire Line
+	7400 3950 7600 3950
+Text HLabel 7600 4100 2    60   Output ~ 0
+~DR
+$Comp
+L R R?
+U 1 1 535F609C
+P 7150 4100
+F 0 "R?" V 7230 4100 40  0000 C CNN
+F 1 "R" V 7157 4101 40  0000 C CNN
+F 2 "" V 7080 4100 30  0000 C CNN
+F 3 "" H 7150 4100 30  0000 C CNN
+	1    7150 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4100 6900 4100
+Wire Wire Line
+	7400 4100 7600 4100
 $EndSCHEMATC

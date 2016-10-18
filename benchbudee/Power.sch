@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:benchbudee-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -109,7 +109,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3000 5750 3000
 $Comp
-L C C2
+L C-RESCUE-benchbudee C2
 U 1 1 52FD1E1E
 P 8900 3700
 F 0 "C2" H 8900 3800 40  0000 L CNN
@@ -120,7 +120,7 @@ F 3 "~" H 8900 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-benchbudee C3
 U 1 1 52FD1E2B
 P 8900 4300
 F 0 "C3" H 8900 4400 40  0000 L CNN
@@ -160,7 +160,7 @@ Wire Wire Line
 	8500 4000 8500 4100
 Connection ~ 8900 4000
 $Comp
-L GND #PWR30
+L GND-RESCUE-benchbudee #PWR30
 U 1 1 52FD1E89
 P 8500 4100
 F 0 "#PWR30" H 8500 4100 30  0001 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 8500 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR20
+L GND-RESCUE-benchbudee #PWR20
 U 1 1 52FD1E98
 P 2050 2800
 F 0 "#PWR20" H 2050 2800 30  0001 C CNN
@@ -268,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3400 3800 3400
 $Comp
-L GND #PWR23
+L GND-RESCUE-benchbudee #PWR23
 U 1 1 52FD21FF
 P 5050 3600
 F 0 "#PWR23" H 5050 3600 30  0001 C CNN
@@ -363,7 +363,7 @@ F 3 "" H 4500 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-benchbudee C1
 U 1 1 53569E0A
 P 8900 2000
 F 0 "C1" H 8900 2100 40  0000 L CNN
@@ -416,7 +416,7 @@ F 3 "" H 7650 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR31
+L GND-RESCUE-benchbudee #PWR31
 U 1 1 53569E91
 P 8900 2250
 F 0 "#PWR31" H 8900 2250 30  0001 C CNN

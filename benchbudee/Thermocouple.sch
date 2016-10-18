@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:benchbudee-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -58,7 +58,7 @@ SCLK
 Text HLabel 1350 3550 0    60   Input ~ 0
 ~CS
 $Comp
-L LM324 U4
+L LM324-RESCUE-benchbudee U4
 U 3 1 52FAF263
 P 7650 2200
 F 0 "U4" H 7700 2400 60  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 7650 2200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LM324 U4
+L LM324-RESCUE-benchbudee U4
 U 4 1 52FAF27A
 P 7650 4300
 F 0 "U4" H 7700 4500 60  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 7650 4300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LM324 U4
+L LM324-RESCUE-benchbudee U4
 U 1 1 52FAF280
 P 5500 3250
 F 0 "U4" H 5550 3450 60  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 5500 3250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-benchbudee R12
 U 1 1 52FAF2B2
 P 9350 3750
 F 0 "R12" V 9430 3750 40  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "~" H 9350 3750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-benchbudee R11
 U 1 1 52FAF2BF
 P 7000 2600
 F 0 "R11" V 7080 2600 40  0000 C CNN
@@ -113,7 +113,7 @@ F 3 "~" H 7000 2600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-benchbudee R13
 U 1 1 52FAF2CF
 P 7000 3900
 F 0 "R13" V 7080 3900 40  0000 C CNN
@@ -124,7 +124,7 @@ F 3 "~" H 7000 3900 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-benchbudee R9
 U 1 1 52FAF2EA
 P 6450 2200
 F 0 "R9" V 6530 2200 40  0000 C CNN
@@ -135,7 +135,7 @@ F 3 "~" H 6450 2200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-benchbudee R7
 U 1 1 52FAF2F0
 P 5350 2200
 F 0 "R7" V 5430 2200 40  0000 C CNN
@@ -146,7 +146,7 @@ F 3 "~" H 5350 2200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-benchbudee R8
 U 1 1 52FAF2F6
 P 5400 4300
 F 0 "R8" V 5480 4300 40  0000 C CNN
@@ -157,7 +157,7 @@ F 3 "~" H 5400 4300 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-benchbudee R10
 U 1 1 52FAF2FC
 P 6450 4300
 F 0 "R10" V 6530 4300 40  0000 C CNN
@@ -262,7 +262,7 @@ F 3 "" H 3000 2600 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R44
+L R-RESCUE-benchbudee R44
 U 1 1 535EDF39
 P 9600 3750
 F 0 "R44" V 9680 3750 40  0000 C CNN
@@ -273,7 +273,7 @@ F 3 "~" H 9600 3750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R45
+L R-RESCUE-benchbudee R45
 U 1 1 535EDF44
 P 9850 3750
 F 0 "R45" V 9930 3750 40  0000 C CNN
@@ -451,7 +451,7 @@ $EndComp
 Wire Wire Line
 	5700 4800 5700 4950
 $Comp
-L C C10
+L C-RESCUE-benchbudee C10
 U 1 1 535EFF7B
 P 6250 5550
 F 0 "C10" H 6250 5650 40  0000 L CNN
@@ -470,7 +470,7 @@ Wire Wire Line
 	6250 6350 6250 5750
 Connection ~ 5700 6350
 $Comp
-L C C9
+L C-RESCUE-benchbudee C9
 U 1 1 535F003F
 P 5300 3800
 F 0 "C9" H 5300 3900 40  0000 L CNN
@@ -481,7 +481,7 @@ F 3 "" H 5300 3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-benchbudee C8
 U 1 1 535F004A
 P 5300 2700
 F 0 "C8" H 5300 2800 40  0000 L CNN
@@ -529,7 +529,7 @@ $EndComp
 Wire Wire Line
 	3200 1450 3200 1800
 $Comp
-L C C7
+L C-RESCUE-benchbudee C7
 U 1 1 535F0A37
 P 3550 1550
 F 0 "C7" H 3550 1650 40  0000 L CNN
@@ -597,7 +597,7 @@ $EndComp
 Wire Wire Line
 	3200 1550 3350 1550
 $Comp
-L C C6
+L C-RESCUE-benchbudee C6
 U 1 1 535F0E29
 P 2450 1550
 F 0 "C6" H 2450 1650 40  0000 L CNN
@@ -681,7 +681,7 @@ Connection ~ 4850 3800
 Wire Wire Line
 	4850 3800 4850 3400
 $Comp
-L R R51
+L R-RESCUE-benchbudee R51
 U 1 1 5362AFBB
 P 4850 4050
 F 0 "R51" V 4930 4050 40  0000 C CNN
@@ -694,7 +694,7 @@ $EndComp
 Wire Wire Line
 	4850 4300 4850 4500
 $Comp
-L R R50
+L R-RESCUE-benchbudee R50
 U 1 1 5362B033
 P 4400 5750
 F 0 "R50" V 4480 5750 40  0000 C CNN

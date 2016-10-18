@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:benchbudee-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -70,7 +70,7 @@ RELAY_NC
 Text HLabel 2200 3700 0    60   BiDi ~ 0
 RELAY_COM
 $Comp
-L +3.3V #PWR54
+L +3.3V-RESCUE-benchbudee #PWR54
 U 1 1 532051E1
 P 2200 900
 F 0 "#PWR54" H 2200 860 30  0001 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 2200 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR56
+L GND-RESCUE-benchbudee #PWR56
 U 1 1 53205598
 P 2200 1400
 F 0 "#PWR56" H 2200 1400 30  0001 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:benchbudee-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -46,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3.3V #PWR53
+L +3.3V-RESCUE-benchbudee #PWR53
 U 1 1 52FD5C63
 P 8400 2100
 F 0 "#PWR53" H 8400 2060 30  0001 C CNN
@@ -134,7 +134,7 @@ F 3 "~" H 1050 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR39
+L GND-RESCUE-benchbudee #PWR39
 U 1 1 52FD5CF0
 P 750 3850
 F 0 "#PWR39" H 750 3850 30  0001 C CNN
@@ -211,7 +211,7 @@ F 3 "~" H 2950 4250 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-benchbudee R17
 U 1 1 52FD5E88
 P 3950 5150
 F 0 "R17" V 4030 5150 40  0000 C CNN
@@ -244,7 +244,7 @@ F 3 "~" H 2950 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-benchbudee R16
 U 1 1 52FD5F36
 P 3950 2400
 F 0 "R16" V 4030 2400 40  0000 C CNN
@@ -356,7 +356,7 @@ V+_CURRENT_MON
 Text HLabel 9100 5550 2    60   Output ~ 0
 V-_CURRENT_MON
 $Comp
-L R R21
+L R-RESCUE-benchbudee R21
 U 1 1 52FE6EC3
 P 5350 2350
 F 0 "R21" V 5430 2350 40  0000 C CNN
@@ -367,7 +367,7 @@ F 3 "~" H 5350 2350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R22
+L R-RESCUE-benchbudee R22
 U 1 1 52FE6ED0
 P 5350 3050
 F 0 "R22" V 5430 3050 40  0000 C CNN
@@ -388,7 +388,7 @@ Wire Wire Line
 	5350 3600 2950 3600
 Connection ~ 2950 3600
 $Comp
-L R R23
+L R-RESCUE-benchbudee R23
 U 1 1 52FE6F75
 P 5350 4250
 F 0 "R23" V 5430 4250 40  0000 C CNN
@@ -427,7 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 2500 8850 2500
 $Comp
-L R R19
+L R-RESCUE-benchbudee R19
 U 1 1 52FE71B1
 P 4600 6150
 F 0 "R19" V 4680 6150 40  0000 C CNN
@@ -452,7 +452,7 @@ Connection ~ 4250 6150
 Text Label 4550 5750 0    60   ~ 0
 V-_MON
 $Comp
-L R R20
+L R-RESCUE-benchbudee R20
 U 1 1 52FE73F0
 P 4650 1400
 F 0 "R20" V 4730 1400 40  0000 C CNN
@@ -474,7 +474,7 @@ Connection ~ 4150 1400
 Text Label 4450 1700 0    60   ~ 0
 V+_MON
 $Comp
-L LM324 U10
+L LM324-RESCUE-benchbudee U10
 U 2 1 52FE778A
 P 8250 5550
 F 0 "U10" H 8300 5750 60  0000 C CNN
@@ -511,7 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 5150 8150 4950
 $Comp
-L LM324 U10
+L LM324-RESCUE-benchbudee U10
 U 1 1 52FE784E
 P 8250 3900
 F 0 "U10" H 8300 4100 60  0000 C CNN
@@ -578,7 +578,7 @@ V-_MON
 Text Label 7200 3800 0    60   ~ 0
 V+_MON
 $Comp
-L R R24
+L R-RESCUE-benchbudee R24
 U 1 1 52FE6F7B
 P 5350 4950
 F 0 "R24" V 5430 4950 40  0000 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:benchbudee-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -54,7 +54,7 @@ RELAY+
 Text HLabel 2850 3400 0    60   Output ~ 0
 RELAY-
 $Comp
-L R R4
+L R-RESCUE-benchbudee R4
 U 1 1 52FBF34F
 P 6650 3900
 F 0 "R4" V 6730 3900 40  0000 C CNN
@@ -77,7 +77,7 @@ F 4 "MM8T3904-7-F" H 7350 3900 60  0001 C CNN "MFG Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-benchbudee D1
 U 1 1 52FBF377
 P 6100 4200
 F 0 "D1" V 6100 4300 50  0000 C CNN
@@ -127,7 +127,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 3200 7450 3700
 $Comp
-L R R6
+L R-RESCUE-benchbudee R6
 U 1 1 52FBFB64
 P 7450 4450
 F 0 "R6" V 7530 4450 40  0000 C CNN
@@ -140,7 +140,7 @@ $EndComp
 Wire Wire Line
 	7450 4100 7450 4200
 $Comp
-L GND #PWR19
+L GND-RESCUE-benchbudee #PWR19
 U 1 1 52FBFB7C
 P 7450 5100
 F 0 "#PWR19" H 7450 5100 30  0001 C CNN
@@ -153,7 +153,7 @@ $EndComp
 Wire Wire Line
 	7450 4700 7450 5100
 $Comp
-L R R2
+L R-RESCUE-benchbudee R2
 U 1 1 52FBFBA4
 P 6100 4750
 F 0 "R2" V 6180 4750 40  0000 C CNN
@@ -169,7 +169,7 @@ Connection ~ 6100 3900
 Wire Wire Line
 	6100 4500 6100 4400
 $Comp
-L GND #PWR17
+L GND-RESCUE-benchbudee #PWR17
 U 1 1 52FBFBD1
 P 6100 5100
 F 0 "#PWR17" H 6100 5100 30  0001 C CNN
@@ -182,7 +182,7 @@ $EndComp
 Wire Wire Line
 	6100 5000 6100 5100
 $Comp
-L R R3
+L R-RESCUE-benchbudee R3
 U 1 1 52FBFC4A
 P 6600 2650
 F 0 "R3" V 6680 2650 40  0000 C CNN
@@ -199,7 +199,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3100 4850 3100
 $Comp
-L R R1
+L R-RESCUE-benchbudee R1
 U 1 1 52FBFCE0
 P 3200 3400
 F 0 "R1" V 3280 3400 40  0000 C CNN
@@ -257,7 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3550 7050 3600
 $Comp
-L R R5
+L R-RESCUE-benchbudee R5
 U 1 1 535DB520
 P 7050 2650
 F 0 "R5" V 7130 2650 40  0000 C CNN

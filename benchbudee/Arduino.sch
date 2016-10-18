@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:benchbudee-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -75,7 +75,7 @@ $EndComp
 Text HLabel 3900 3500 0    60   Input ~ 0
 CURR_MEAS
 $Comp
-L R R38
+L R-RESCUE-benchbudee R38
 U 1 1 53206503
 P 7150 3200
 F 0 "R38" V 7230 3200 40  0000 C CNN
@@ -90,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 3200 7600 3200
 $Comp
-L R R42
+L R-RESCUE-benchbudee R42
 U 1 1 53206A18
 P 7150 4550
 F 0 "R42" V 7230 4550 40  0000 C CNN
@@ -105,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 4550 7600 4550
 $Comp
-L GND #PWR70
+L GND-RESCUE-benchbudee #PWR70
 U 1 1 53206A3A
 P 8650 4900
 F 0 "#PWR70" H 8650 4900 30  0001 C CNN
@@ -120,7 +120,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 4550 8650 4900
 $Comp
-L R R34
+L R-RESCUE-benchbudee R34
 U 1 1 53206A58
 P 4300 3500
 F 0 "R34" V 4380 3500 40  0000 C CNN
@@ -131,7 +131,7 @@ F 3 "" H 4300 3500 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R33
+L R-RESCUE-benchbudee R33
 U 1 1 53206A63
 P 4300 3350
 F 0 "R33" V 4380 3350 40  0000 C CNN
@@ -154,7 +154,7 @@ V+_ADJ_MON
 Text HLabel 3900 3200 0    60   Input ~ 0
 V-_ADJ_MON
 $Comp
-L R R32
+L R-RESCUE-benchbudee R32
 U 1 1 53207FED
 P 4300 3200
 F 0 "R32" V 4380 3200 40  0000 C CNN
@@ -165,7 +165,7 @@ F 3 "" H 4300 3200 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R31
+L R-RESCUE-benchbudee R31
 U 1 1 53207FF8
 P 4300 3050
 F 0 "R31" V 4380 3050 40  0000 C CNN
@@ -184,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3200 4550 3200
 $Comp
-L R R35
+L R-RESCUE-benchbudee R35
 U 1 1 5320805A
 P 7150 2750
 F 0 "R35" V 7230 2750 40  0000 C CNN
@@ -195,7 +195,7 @@ F 3 "" H 7150 2750 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R36
+L R-RESCUE-benchbudee R36
 U 1 1 53208065
 P 7150 2900
 F 0 "R36" V 7230 2900 40  0000 C CNN
@@ -206,7 +206,7 @@ F 3 "" H 7150 2900 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R37
+L R-RESCUE-benchbudee R37
 U 1 1 53208070
 P 7150 3050
 F 0 "R37" V 7230 3050 40  0000 C CNN
@@ -217,7 +217,7 @@ F 3 "" H 7150 3050 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R41
+L R-RESCUE-benchbudee R41
 U 1 1 5320807B
 P 7150 3650
 F 0 "R41" V 7230 3650 40  0000 C CNN
@@ -246,7 +246,7 @@ Wire Wire Line
 Text HLabel 7600 3350 2    60   Output ~ 0
 LED_EN_PWM
 $Comp
-L R R39
+L R-RESCUE-benchbudee R39
 U 1 1 53208124
 P 7150 3350
 F 0 "R39" V 7230 3350 40  0000 C CNN
@@ -263,7 +263,7 @@ Wire Wire Line
 Text HLabel 7600 3500 2    60   Output ~ 0
 TC_CS_N
 $Comp
-L R R40
+L R-RESCUE-benchbudee R40
 U 1 1 532188BC
 P 7150 3500
 F 0 "R40" V 7230 3500 40  0000 C CNN
@@ -280,7 +280,7 @@ Wire Wire Line
 Text HLabel 7600 4700 2    60   Output ~ 0
 FAN_MODE
 $Comp
-L R R43
+L R-RESCUE-benchbudee R43
 U 1 1 53262459
 P 7150 4700
 F 0 "R43" V 7230 4700 40  0000 C CNN
@@ -295,7 +295,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4700 6700 4700
 $Comp
-L R R30
+L R-RESCUE-benchbudee R30
 U 1 1 532624A4
 P 4300 2900
 F 0 "R30" V 4380 2900 40  0000 C CNN
@@ -336,7 +336,7 @@ $EndComp
 Wire Wire Line
 	3150 2300 3150 2450
 $Comp
-L GND #PWR69
+L GND-RESCUE-benchbudee #PWR69
 U 1 1 5356A2E7
 P 3600 2750
 F 0 "#PWR69" H 3600 2750 30  0001 C CNN
@@ -347,7 +347,7 @@ F 3 "" H 3600 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L R-RESCUE-benchbudee R28
 U 1 1 5356A2F9
 P 4300 2600
 F 0 "R28" V 4380 2600 40  0000 C CNN
@@ -358,7 +358,7 @@ F 3 "" H 4300 2600 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R29
+L R-RESCUE-benchbudee R29
 U 1 1 5356A304
 P 4300 2750
 F 0 "R29" V 4380 2750 40  0000 C CNN
@@ -369,7 +369,7 @@ F 3 "" H 4300 2750 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R27
+L R-RESCUE-benchbudee R27
 U 1 1 5356A30F
 P 4300 2450
 F 0 "R27" V 4380 2450 40  0000 C CNN
@@ -399,7 +399,7 @@ Connection ~ 3800 2600
 Text HLabel 7600 3950 2    60   Output ~ 0
 ~RESET
 $Comp
-L R R46
+L R-RESCUE-benchbudee R46
 U 1 1 535F6093
 P 7150 3950
 F 0 "R46" V 7230 3950 40  0000 C CNN
@@ -416,7 +416,7 @@ Wire Wire Line
 Text HLabel 7600 4100 2    60   Output ~ 0
 ~DR
 $Comp
-L R R47
+L R-RESCUE-benchbudee R47
 U 1 1 535F609C
 P 7150 4100
 F 0 "R47" V 7230 4100 40  0000 C CNN

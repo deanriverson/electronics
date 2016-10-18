@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:benchbudee-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -56,7 +56,7 @@ TACH_MEAS
 Text HLabel 2350 3450 0    60   Input ~ 0
 FAN_PWM
 $Comp
-L LM324 U4
+L LM324-RESCUE-benchbudee U4
 U 2 1 52FBCCEC
 P 7300 2850
 F 0 "U4" H 7350 3050 60  0000 C CNN
@@ -100,7 +100,7 @@ F 3 "" H 7200 3300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MCP4922-E/P U11
+L MCP4922-E/P-RESCUE-benchbudee U11
 U 1 1 52FBCE6B
 P 3850 2900
 F 0 "U11" H 4000 3300 40  0000 L BNN
@@ -113,7 +113,7 @@ $EndComp
 Text HLabel 2350 3750 0    60   Output ~ 0
 CURR_MEAS
 $Comp
-L R R25
+L R-RESCUE-benchbudee R25
 U 1 1 52FBCF5F
 P 4900 2750
 F 0 "R25" V 4980 2750 40  0000 C CNN
@@ -201,7 +201,7 @@ F 3 "~" H 8050 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L R-RESCUE-benchbudee R26
 U 1 1 532608E6
 P 8750 4250
 F 0 "R26" V 8830 4250 40  0000 C CNN
@@ -294,7 +294,7 @@ TACH_MEAS
 Text HLabel -49850 -83700 0    60   Input ~ 0
 FAN_PWM
 $Comp
-L LM324 U13
+L LM324-RESCUE-benchbudee U13
 U 1 1 53626B76
 P -44900 -84300
 F 0 "U13" H -44850 -84100 60  0000 C CNN
@@ -338,7 +338,7 @@ F 3 "" H -45000 -83850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MCP4922-E/P U12
+L MCP4922-E/P-RESCUE-benchbudee U12
 U 1 1 53626B8E
 P -48350 -84250
 F 0 "U12" H -48200 -83850 40  0000 L BNN
@@ -351,7 +351,7 @@ $EndComp
 Text HLabel -49850 -83400 0    60   Output ~ 0
 CURR_MEAS
 $Comp
-L R R48
+L R-RESCUE-benchbudee R48
 U 1 1 53626B95
 P -47300 -84400
 F 0 "R48" V -47220 -84400 40  0000 C CNN
@@ -439,7 +439,7 @@ F 3 "~" H -44150 -82900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R49
+L R-RESCUE-benchbudee R49
 U 1 1 53626BC4
 P -43450 -82900
 F 0 "R49" V -43370 -82900 40  0000 C CNN

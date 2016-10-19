@@ -194,7 +194,4 @@ F 3 "" H 2750 4150 50  0000 C CNN
 $EndComp
 Text Label 2850 3100 0    60   ~ 0
 VDD
-Wire Wire Line
-	5650 4700 5650 5300
-Connection ~ 5650 5300
 $EndSCHEMATC
